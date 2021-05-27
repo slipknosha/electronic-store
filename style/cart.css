@@ -1,0 +1,74 @@
+.cartList {
+	width: 100%;
+	background-color: aqua;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.product {
+	background-color: rgba(100, 100, 100, 0.9);
+	padding: 10px;
+	border: 0;
+	margin: 10px 10px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+
+.product img {
+	margin-right: 10px;
+}
+
+.product button {
+	width: 30px;
+	height: 30px;
+	margin: 0px;
+}
+
+.product .delete {
+	width: 100px;
+	height: 30px;
+}
+
+.product .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+body {
+	background-image: url(../img/background.jpg);
+	background-position: top-left;
+	background-attachment: fixed;
+}
+
+#total {
+	background-color: rgba(100, 100, 100, 0.9);
+	padding: 10px;
+	border: 0;
+	margin: 10px 10px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	align-items: center;
+}
+
+#total button {
+	width: 100px;
+	height: 30px;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+#total span::after {
+	content: " ";
+	white-space: pre;
+}
+
+#total span::before {
+	content: " ";
+	white-space: pre;
+}
